@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GravIQ – Grounding Intelligence</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/graviq-logo.png" alt="GravIQ Logo" style="max-height: 80px;"/>
+    <h1>GravIQ</h1>
+    <p class="tagline">Grounding Intelligence</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="why.html">Why This Matters</a>
+      <a href="get-involved.html">Get Involved</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Contact Us</h2>
+    <form name="contact" method="POST" data-netlify="true">
+      <label for="reason">I’m reaching out as a:</label>
+      <select name="reason" id="reason">
+        <option value="investor">Investor</option>
+        <option value="developer">Developer</option>
+        <option value="media">Media/Press</option>
+        <option value="partner">Potential Partner</option>
+        <option value="other">Other</option>
+      </select>
+      <label for="email">Email:</label>
+      <input type="email" name="email" required />
+      <label for="message">Message:</label>
+      <textarea name="message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 GravIQ. All rights reserved.</p>
+  </footer>
+</body>
+</html>
